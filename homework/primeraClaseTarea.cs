@@ -128,14 +128,14 @@ Console.WriteLine($"Su nombre es: {nombre} y su edad es: {edad2}");*/
 //14
 
 //15
-Console.Write("Ingrese un numero cualquiera: ")
-string number = Console.ReadLine();
-double number2 = Convert.ToDouble(number);
+// Console.Write("Ingrese un numero cualquiera: ")
+// string number = Console.ReadLine();
+// double number2 = Convert.ToDouble(number);
 
-for (int i = 0; i < number2; i++)
-{
-    Console.WriteLine($"{i}. {i*number2}");
-}
+// for (int i = 0; i < number2; i++)
+// {
+//     Console.WriteLine($"{i}. {i*number2}");
+// }
 //16
 
 //17
