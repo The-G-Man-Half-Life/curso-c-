@@ -120,38 +120,38 @@
 // }
 // }
 //7
-// Console.WriteLine("Ingrese un número entero positivo:");
-//         string entrada = Console.ReadLine();
+// Console.WriteLine("Ingrese un numero entero");
+// string? numero = Console.ReadLine();
 
-//         if (int.TryParse(entrada, out int limite) && limite > 0)
+// int numeroI;
+// bool isInt = int.TryParse(numero, out numeroI);
+
+// if (isInt = false || int.IsNegative(numeroI) || string.IsNullOrEmpty(numero))
+// {
+//     Console.WriteLine("Debes de escribir un numero");
+// }
+// else
+// {
+//     int numberA = 0;
+//     int numberB = 1;
+//     int numberC;
+
+//     for (int i = 0; i > -1; i++)
+//     {
+
+
+//         numberC = numberA + numberB;
+
+//         if (numberC > numeroI)
 //         {
-//             List<int> fibonacci = new List<int>();
-
-//             int a = 0, b = 1, c;
-//             fibonacci.Add(a);
-//             fibonacci.Add(b);
-
-//             for (int i = 2; ; i++)
-//             {
-//                 c = a + b;
-//                 if (c > limite)
-//                     break;
-//                 fibonacci.Add(c);
-//                 a = b;
-//                 b = c;
-//             }
-
-//             Console.WriteLine("Secuencia de Fibonacci hasta " + limite + ":");
-//             foreach (int num in fibonacci)
-//             {
-//                 Console.Write(num + " ");
-//             }
-//             Console.WriteLine();
+//             break;
 //         }
-//         else
-//         {
-//             Console.WriteLine("Entrada inválida. Debe ingresar un número entero positivo.");
-//         }
+//         Console.WriteLine($"{numberA} + {numberB} = {numberC}");
+        
+//         numberA = numberB;
+//         numberB = numberC;
+//     }
+// }
 //8
 // Console.Write("Ingrese un numero entero para verificar si es primo o no => ");
 // int numero = Convert.ToInt16(Console.ReadLine());
