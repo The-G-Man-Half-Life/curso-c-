@@ -120,7 +120,38 @@
 // }
 // }
 //7
+// Console.WriteLine("Ingrese un número entero positivo:");
+//         string entrada = Console.ReadLine();
 
+//         if (int.TryParse(entrada, out int limite) && limite > 0)
+//         {
+//             List<int> fibonacci = new List<int>();
+
+//             int a = 0, b = 1, c;
+//             fibonacci.Add(a);
+//             fibonacci.Add(b);
+
+//             for (int i = 2; ; i++)
+//             {
+//                 c = a + b;
+//                 if (c > limite)
+//                     break;
+//                 fibonacci.Add(c);
+//                 a = b;
+//                 b = c;
+//             }
+
+//             Console.WriteLine("Secuencia de Fibonacci hasta " + limite + ":");
+//             foreach (int num in fibonacci)
+//             {
+//                 Console.Write(num + " ");
+//             }
+//             Console.WriteLine();
+//         }
+//         else
+//         {
+//             Console.WriteLine("Entrada inválida. Debe ingresar un número entero positivo.");
+//         }
 //8
 // Console.Write("Ingrese un numero entero para verificar si es primo o no => ");
 // int numero = Convert.ToInt16(Console.ReadLine());
