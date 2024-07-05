@@ -2,7 +2,7 @@
 productos.Add(
     new Dictionary<string, object>
         {
-            {"nombre", "Coco cola"},
+            {"nombre", "coco cola"},
             {"precio", "100000"},
             {"cantidad", 100}
         }
@@ -116,16 +116,16 @@ Console.WriteLine(separador);
                 }
 Console.WriteLine(
 @"
-________________________________________________________
-|  ID  |      Nombre       |   precio   |   cantidad   |");
+___________________________________________________________________________
+|  ID  |      Nombre       |   precio   |   cantidad   |    precio total   |");
     contador = 0;
     foreach (var c in productos)
     {
         contador++;
         Console.WriteLine(
-@$"|______________________________________________________|
-|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |");}
-Console.WriteLine(@"|______________________________________________________|
+@$"|__________________________________________________________________________|
+|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |  {Convert.ToInt32(c["precio"]) * Convert.ToInt32(c["cantidad"]),-17}|");}
+Console.WriteLine(@"|__________________________________________________________________________|
 ");
 
                 break;
@@ -134,16 +134,16 @@ Console.WriteLine(@"|______________________________________________________|
             case 2:
 Console.WriteLine(
 @"
-________________________________________________________
-|  ID  |      Nombre       |   precio   |   cantidad   |");
+___________________________________________________________________________
+|  ID  |      Nombre       |   precio   |   cantidad   |    precio total   |");
     contador = 0;
     foreach (var c in productos)
     {
         contador++;
         Console.WriteLine(
-@$"|______________________________________________________|
-|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |");}
-Console.WriteLine(@"|______________________________________________________|
+@$"|__________________________________________________________________________|
+|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |  {Convert.ToInt32(c["precio"]) * Convert.ToInt32(c["cantidad"]),-17}|");}
+Console.WriteLine(@"|__________________________________________________________________________|
 ");
 
 Console.WriteLine(separador2);
@@ -227,16 +227,18 @@ Console.WriteLine(separador2);
                     {
                         Console.WriteLine(separador2);
                         Console.WriteLine("        Este es el producto que estas buscando");
+
 Console.WriteLine(
-@"________________________________________________________
-|  ID  |      Nombre       |   precio   |   cantidad   |");
+@"
+___________________________________________________________________________
+|  ID  |      Nombre       |   precio   |   cantidad   |    precio total   |");
     contador = 0;
-    
+
         contador++;
         Console.WriteLine(
-@$"|______________________________________________________|
-|   {contador,-3}|    {productos[i]["nombre"],-15}|  {productos[i]["precio"],-10}|     {productos[i]["cantidad"],-8} |");
-Console.WriteLine(@"|______________________________________________________|
+@$"|__________________________________________________________________________|
+|   {contador,-3}|    {productos[i]["nombre"],-15}|  {productos[i]["precio"],-10}|     {productos[i]["cantidad"],-8} |  {Convert.ToInt32(productos[i]["precio"]) * Convert.ToInt32(productos[i]["cantidad"]),-17}|");
+Console.WriteLine(@"|__________________________________________________________________________|
 ");
                         flag3 = false;
                         break;
@@ -254,21 +256,21 @@ Console.WriteLine(@"|______________________________________________________|
                 break;
 
 
-            case 4:
+            case 4:Console.WriteLine(separador2);
 
 Console.WriteLine(separador2);
 Console.WriteLine(
 @"
-________________________________________________________
-|  ID  |      Nombre       |   precio   |   cantidad   |");
+___________________________________________________________________________
+|  ID  |      Nombre       |   precio   |   cantidad   |    precio total   |");
     contador = 0;
     foreach (var c in productos)
     {
         contador++;
         Console.WriteLine(
-@$"|______________________________________________________|
-|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |");}
-Console.WriteLine(@"|______________________________________________________|
+@$"|__________________________________________________________________________|
+|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |  {Convert.ToInt32(c["precio"]) * Convert.ToInt32(c["cantidad"]),-17}|");}
+Console.WriteLine(@"|__________________________________________________________________________|
 ");
 break;
 
@@ -279,16 +281,16 @@ break;
 
 Console.WriteLine(
 @"
-________________________________________________________
-|  ID  |      Nombre       |   precio   |   cantidad   |");
+___________________________________________________________________________
+|  ID  |      Nombre       |   precio   |   cantidad   |    precio total   |");
     contador = 0;
     foreach (var c in productos)
     {
         contador++;
         Console.WriteLine(
-@$"|______________________________________________________|
-|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |");}
-Console.WriteLine(@"|______________________________________________________|
+@$"|__________________________________________________________________________|
+|   {contador,-3}|    {c["nombre"],-15}|  {c["precio"],-10}|     {c["cantidad"],-8} |  {Convert.ToInt32(c["precio"]) * Convert.ToInt32(c["cantidad"]),-17}|");}
+Console.WriteLine(@"|__________________________________________________________________________|
 ");
                 Console.WriteLine(separador2);
                 Console.Write("Ingrese el numero del producto que desea eliminar =>");
