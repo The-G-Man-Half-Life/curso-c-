@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/bin/Debug/net8.0/terceraClase
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/bin/Debug/net8.0/terceraClase.deps.json
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/bin/Debug/net8.0/terceraClase.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/bin/Debug/net8.0/terceraClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/bin/Debug/net8.0/terceraClase.pdb
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/refint/terceraClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.pdb
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/terceraClase.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/homework/terceraClase/obj/Debug/net8.0/ref/terceraClase.dll
