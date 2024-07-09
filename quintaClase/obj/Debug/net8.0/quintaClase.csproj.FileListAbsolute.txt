@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/quintaClase/bin/Debug/net8.0/quintaClase
+/home/riwip5-012/Documents/curso-c-/quintaClase/bin/Debug/net8.0/quintaClase.deps.json
+/home/riwip5-012/Documents/curso-c-/quintaClase/bin/Debug/net8.0/quintaClase.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/quintaClase/bin/Debug/net8.0/quintaClase.dll
+/home/riwip5-012/Documents/curso-c-/quintaClase/bin/Debug/net8.0/quintaClase.pdb
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.dll
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/refint/quintaClase.dll
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.pdb
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/quintaClase.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/quintaClase/obj/Debug/net8.0/ref/quintaClase.dll
