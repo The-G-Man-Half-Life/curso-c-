@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("quintaClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b8cef5bda6a13c07aecce26d5dedf191ef96dd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60b5c809cfa9d8517e9102b9f435efece59a2506")]
 [assembly: System.Reflection.AssemblyProductAttribute("quintaClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("quintaClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
