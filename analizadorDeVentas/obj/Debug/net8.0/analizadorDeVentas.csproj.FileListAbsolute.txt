@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/bin/Debug/net8.0/analizadorDeVentas
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/bin/Debug/net8.0/analizadorDeVentas.deps.json
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/bin/Debug/net8.0/analizadorDeVentas.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/bin/Debug/net8.0/analizadorDeVentas.dll
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/bin/Debug/net8.0/analizadorDeVentas.pdb
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.dll
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/refint/analizadorDeVentas.dll
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.pdb
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/analizadorDeVentas.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/analizadorDeVentas/obj/Debug/net8.0/ref/analizadorDeVentas.dll
