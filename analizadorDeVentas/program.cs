@@ -1,38 +1,40 @@
 ﻿using System.Data.Common;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 List<Sale> Sales = new List<Sale>()
 {
             new Sale(1, new DateTime(2023, 7, 10), "headphones", 149.99, 3, "pepe guzman", "michael brown", 0),
-            new Sale(1, new DateTime(2023, 8, 15), "laptop", 1200.50, 1, "pepe guzman", "michael brown", 12),
-            new Sale(1, new DateTime(2023, 9, 20), "smartphone", 899.99, 2, "pepe guzman", "michael brown", 6),
-            new Sale(2, new DateTime(2023, 10, 5), "tablet", 499.95, 1, "antonio ramirez", "alice johnson", 0),
-            new Sale(2, new DateTime(2023, 11, 12), "camera", 599.75, 1, "antonio ramirez", "alice johnson", 12),
-            new Sale(2, new DateTime(2023, 12, 3), "printer", 299.99, 1, "antonio ramirez", "alice johnson", 0),
-            new Sale(3, new DateTime(2024, 1, 8), "external hard drive", 129.50, 2, "john coltan", "bob smith", 6),
-            new Sale(3, new DateTime(2024, 2, 17), "monitor", 399.00, 1, "john coltan", "bob smith", 12),
-            new Sale(3, new DateTime(2024, 3, 21), "keyboard", 49.99, 3, "john coltan", "bob smith", 0),
-            new Sale(4, new DateTime(2024, 4, 29), "mouse", 19.95, 5, "hernan atrato", "emma davis", 6),
-            new Sale(4, new DateTime(2024, 5, 6), "speakers", 99.99, 2, "hernan atrato", "emma davis", 12),
-            new Sale(4, new DateTime(2024, 6, 14), "smart watch", 299.00, 1, "hernan atrato", "emma davis", 0),
-            new Sale(5, new DateTime(2024, 7, 22), "power bank", 29.50, 4, "prudencia arracacha", "david wilson", 6),
-            new Sale(5, new DateTime(2024, 8, 30), "router", 79.99, 1, "prudencia arracacha", "david wilson", 12),
-            new Sale(5, new DateTime(2024, 9, 4), "scanner", 199.99, 1, "prudencia arracacha", "david wilson", 0),
-            new Sale(6, new DateTime(2024, 10, 12), "software", 149.95, 3, "otis otalvarez", "sophia lee", 6),
-            new Sale(6, new DateTime(2024, 11, 19), "webcam", 69.50, 2, "otis otalvarez", "sophia lee", 12),
-            new Sale(6, new DateTime(2024, 12, 25), "vr headset", 399.00, 1, "otis otalvarez", "sophia lee", 0),
-            new Sale(7, new DateTime(2025, 1, 1), "bluetooth earphones", 59.99, 2, "dumar auto", "olivia martinez", 12),
-            new Sale(7, new DateTime(2025, 2, 9), "smart thermostat", 199.00, 1, "dumar auto", "olivia martinez", 0),
-            new Sale(7, new DateTime(2025, 3, 17), "drone", 499.99, 1, "dumar auto", "olivia martinez", 6),
-            new Sale(8, new DateTime(2025, 4, 21), "fitness tracker", 79.95, 3, "adam smith", "james thompson", 12),
-            new Sale(8, new DateTime(2025, 5, 28), "portable speaker", 129.99, 2, "adam smith", "james thompson", 0),
-            new Sale(8, new DateTime(2025, 6, 3), "action camera", 299.50, 1, "adam smith", "james thompson", 6),
-            new Sale(9, new DateTime(2025, 7, 11), "gaming console", 399.00, 1, "beatriz vergara", "ethan harris", 12),
-            new Sale(9, new DateTime(2025, 8, 19), "e-book reader", 129.00, 2, "beatriz vergara", "ethan harris", 0),
-            new Sale(9, new DateTime(2025, 9, 23), "smart doorbell", 149.99, 1, "beatriz vergara", "ethan harris", 6),
-            new Sale(10, new DateTime(2025, 10, 30), "robot vacuum", 299.95, 1, "jose miguel", "noah hernandez", 12),
-            new Sale(10, new DateTime(2025, 11, 4), "electric scooter", 699.00, 1, "jose miguel", "noah hernandez", 0),
-            new Sale(10, new DateTime(2025, 12, 12), "digital photo frame", 89.99, 4, "jose miguel", "noah hernandez", 6)
+            new Sale(1, new DateTime(2023, 7, 10), "laptop", 1200.50, 1, "pepe guzman", "michael brown", 12),
+            new Sale(1, new DateTime(2023, 7, 10), "smartphone", 899.99, 2, "pepe guzman", "michael brown", 6),
+            new Sale(2, new DateTime(2023, 11, 3), "tablet", 499.95, 1, "antonio ramirez", "alice johnson", 0),
+            new Sale(2, new DateTime(2023, 11, 3), "camera", 599.75, 1, "antonio ramirez", "alice johnson", 12),
+            new Sale(2, new DateTime(2023, 11, 3), "printer", 299.99, 1, "antonio ramirez", "alice johnson", 0),
+            new Sale(3, new DateTime(2024, 2, 5), "external hard drive", 129.50, 2, "john coltan", "bob smith", 6),
+            new Sale(3, new DateTime(2024, 2, 5), "monitor", 399.00, 1, "john coltan", "bob smith", 12),
+            new Sale(3, new DateTime(2024, 2, 5), "keyboard", 49.99, 3, "john coltan", "bob smith", 0),
+            new Sale(4, new DateTime(2024, 11, 27), "mouse", 19.95, 5, "hernan atrato", "emma davis", 6),
+            new Sale(4, new DateTime(2024, 11, 27), "speakers", 99.99, 2, "hernan atrato", "emma davis", 12),
+            new Sale(4, new DateTime(2024, 11, 27), "smart watch", 299.00, 1, "hernan atrato", "emma davis", 0),
+            new Sale(5, new DateTime(2024, 12, 18), "power bank", 29.50, 4, "prudencia arracacha", "david wilson", 6),
+            new Sale(5, new DateTime(2024, 12, 18), "router", 79.99, 1, "prudencia arracacha", "david wilson", 12),
+            new Sale(5, new DateTime(2024, 12, 18), "scanner", 199.99, 1, "prudencia arracacha", "david wilson", 0),
+            new Sale(6, new DateTime(2024, 2, 24), "software", 149.95, 3, "otis otalvarez", "sophia lee", 6),
+            new Sale(6, new DateTime(2024, 2, 24), "webcam", 69.50, 2, "otis otalvarez", "sophia lee", 12),
+            new Sale(6, new DateTime(2024, 2, 24), "vr headset", 399.00, 1, "otis otalvarez", "sophia lee", 0),
+            new Sale(7, new DateTime(2024, 6, 12), "bluetooth earphones", 59.99, 2, "dumar auto", "olivia martinez", 12),
+            new Sale(7, new DateTime(2024, 6, 12), "smart thermostat", 199.00, 1, "dumar auto", "olivia martinez", 0),
+            new Sale(7, new DateTime(2024, 6, 12), "drone", 499.99, 1, "dumar auto", "olivia martinez", 6),
+            new Sale(8, new DateTime(2024, 7, 13), "fitness tracker", 79.95, 3, "adam smith", "james thompson", 12),
+            new Sale(8, new DateTime(2024, 7, 13), "portable speaker", 129.99, 2, "adam smith", "james thompson", 0),
+            new Sale(8, new DateTime(2024, 7, 13), "action camera", 299.50, 1, "adam smith", "james thompson", 6),
+            new Sale(9, new DateTime(2023, 12, 10), "gaming console", 399.00, 1, "beatriz vergara", "ethan harris", 12),
+            new Sale(9, new DateTime(2023, 12, 10), "e-book reader", 129.00, 2, "beatriz vergara", "ethan harris", 0),
+            new Sale(9, new DateTime(2023, 12, 10), "smart doorbell", 149.99, 1, "beatriz vergara", "ethan harris", 6),
+            new Sale(10, new DateTime(2023, 7, 4), "robot vacuum", 299.95, 1, "jose miguel", "noah hernandez", 12),
+            new Sale(10, new DateTime(2023, 7, 4), "electric scooter", 699.00, 1, "jose miguel", "noah hernandez", 0),
+            new Sale(10, new DateTime(2023, 7, 4), "digital photo frame", 89.99, 4, "jose miguel", "noah hernandez", 6),
+            new Sale(11, new DateTime(2023, 7, 4), "digital photo frame", 600000, 20, "michael brown", "patria hernandez", 6)
 };
 
 
@@ -44,7 +46,8 @@ string tacticalSpace =
 bool bandera = true;
 while (bandera == true)
 {
-//menu
+    //menu
+
     Console.WriteLine
 (
 @"
@@ -109,12 +112,16 @@ while (bandera == true)
                 RegisterNewSale(Sales);
                 break;
             case (2):
+                ToSeeTotalSalesValueSell(Sales);
                 break;
             case (3):
+                ToCalculateAverageSalesByDay(Sales);
                 break;
             case (4):
+                ToShowTheMostValuableEmployee(Sales);
                 break;
             case (5):
+                ToShowTheMostValuableShopper(Sales);
                 break;
             case (6):
                 break;
@@ -136,8 +143,8 @@ while (bandera == true)
                 break;
             case (15):
                 break;
-            case(16):
-            ToShowProducts(Sales);
+            case (16):
+                ToShowProducts(Sales);
                 break;
         }
     }
@@ -152,7 +159,7 @@ while (bandera == true)
     }
 
 
-//funciones
+    //funciones
     void Clear()
     {
         Console.Clear();
@@ -264,13 +271,13 @@ while (bandera == true)
 
                 else
                 {
-                    Clear(); 
+                    Clear();
                     Console.WriteLine("Debes de escribir un valor valido");
                     Console.WriteLine(tacticalSpace);
                 }
-                }
-
             }
+
+        }
 
         else
         {
@@ -278,27 +285,241 @@ while (bandera == true)
         }
     }
 
-    void TotalValueSell(List<Sale> list)
+    void ToSeeTotalSalesValueSell(List<Sale> list)
     {
-        Console.Write("Ingrese el numero de la venta ");
+        var uniqueId = list.DistinctBy(item => item.Id).ToList();
+
+        Clear();
+
+        Console.WriteLine
+        (
+        @"___________
+|    ID   |
+-----------"
+        );
+
+        foreach (var item in uniqueId)
+        {
+            Console.WriteLine
+            (
+            @$"|     {item.Id,-4}|
+|_________|"
+            );
+        }
+        Console.WriteLine(tacticalSpace);
+
+        Console.Write("Ingrese el numero de la venta: ");
+        string? idSelected = Console.ReadLine();
+        int idSelectedG;
+        bool ConversionToInt = int.TryParse(idSelected, out idSelectedG);
+
+        if (string.IsNullOrWhiteSpace(idSelected) == true || ConversionToInt == false || uniqueId.Count() < idSelectedG)
+        {
+            Clear();
+            Console.WriteLine("El valor ingresado es erroneo");
+            Console.WriteLine(tacticalSpace);
+            Console.Write("Ingrese cualquier letra para continuar:");
+            Console.ReadKey();
+        }
+        else
+        {
+            var elementsOfTheSale = list.Where(sale => sale.Id == idSelectedG);
+
+            double totalValueSale = 0;
+
+            foreach (var item in elementsOfTheSale)
+            {
+                totalValueSale = totalValueSale + (item.ProductValue * item.ProductAmount);
+            }
+
+            Console.WriteLine(tacticalSpace);
+            Console.WriteLine($"El precio de la venta {idSelectedG} es: {totalValueSale}$");
+            Console.WriteLine(tacticalSpace);
+            Console.WriteLine("Presione cualquier tecla para continuar");
+            Console.ReadKey();
+        }
+    }
+
+    void ToCalculateAverageSalesByDay(List<Sale> list)
+    {
+        Console.WriteLine(tacticalSpace);
+        Console.Write("Ingrese una fecha(YYYY/MM/DD):");
+        string? requestedDate = Console.ReadLine();
+        DateTime requestedDateG;
+        bool couldItBeTransformedToDateTime = DateTime.TryParse(requestedDate, out requestedDateG);
+
+        bool DoesDateMatch = list.Any(date => date.SaleDate == requestedDateG);
+
+        if (couldItBeTransformedToDateTime == false || string.IsNullOrWhiteSpace(requestedDate) || DoesDateMatch == false)
+        {
+            Clear();
+            Console.WriteLine("El valor ingresado es erroneo");
+            Console.WriteLine(tacticalSpace);
+            Console.Write("Ingrese cualquier letra para continuar:");
+            Console.ReadKey();
+        }
+        else
+        {
+            var salesInSameDay = list.Where(date => date.SaleDate == requestedDateG).ToList();
+
+            double totalCashOfTheDay = 0;
+            foreach (var item in salesInSameDay)
+            {
+
+                totalCashOfTheDay = totalCashOfTheDay + (item.ProductValue * item.ProductAmount);
+
+            }
+
+            int totalAmountOfCostumers = salesInSameDay.DistinctBy(item => item.Id).Count();
+
+            double averageAmountOfCashInTheDay = totalCashOfTheDay / totalAmountOfCostumers;
+
+            Console.WriteLine(tacticalSpace);
+
+            Console.WriteLine($"El promedio de las ventas el dia {requestedDateG.ToString("yyyy/MM/dd")} fue: {averageAmountOfCashInTheDay}$");
+
+            Console.WriteLine(tacticalSpace);
+            Console.WriteLine("Presiona cualquier tecla para continuar");
+            Console.ReadKey();
+            Clear();
+        }
+    }
+
+    void ToShowTheMostValuableEmployee(List<Sale> list)
+    {
+        Clear();
+        Console.WriteLine(tacticalSpace);
+
+        Console.Write("Ingrese la fecha Inicial(YYYY/MM/DD): ");
+        string? date2 = Console.ReadLine();
+        DateTime date2G;
+        bool couldItBeTransformedToDate = DateTime.TryParse(date2, out date2G);
+
+        Console.Write("Ingrese la fecha final(YYYY/MM/DD): ");
+        string? date3 = Console.ReadLine();
+        DateTime date3G;
+        bool couldItBeTransformedToDate2 = DateTime.TryParse(date3, out date3G);
+
+        var employeesInDateRange = list.Where(date => date.SaleDate <= date3G && date.SaleDate >= date2G).ToList();
+
+        if (couldItBeTransformedToDate == false || couldItBeTransformedToDate2 == false || string.IsNullOrWhiteSpace(date2) == true || employeesInDateRange.Count == 0)
+        {
+            Clear();
+            Console.WriteLine("El valor ingresado es erroneo");
+            Console.WriteLine(tacticalSpace);
+            Console.WriteLine("Presione un boton cualquiera para seguir");
+            Console.ReadKey();
+        }
+        else
+        {
+            Console.WriteLine(tacticalSpace);
+            var EmployeesMadeCash = employeesInDateRange
+            .GroupBy(employee => employee.Seller)
+            .Select(group => new
+            {
+                Seller = group.Key,
+                TotalSales = group.Sum(employee => employee.ProductAmount * employee.ProductValue)
+            }).OrderByDescending(result => result.TotalSales);
+
+            int count = 1;
+
+            Console.WriteLine($"Este es el ranking de los vendedores entre {date2G.ToString("yyyy/MM/dd")} y {date3G.ToString("yyyy/MM/dd")}:");
+
+            Console.WriteLine(
+@$"__________________________________________________________
+| Rank |         Seller           |     Cash obtained     |
+|_________________________________________________________|"
+            );
+
+            foreach (var item in EmployeesMadeCash)
+            {
+                Console.WriteLine(
+    @$"|  {count,-4}|  {item.Seller,-24}|  {item.TotalSales,-21}|"
+    );
+                count++;
+            }
+
+            Console.WriteLine(
+            @$"|_________________________________________________________|");
+
+            Console.WriteLine("Presione un boton cualquiera para seguir");
+            Console.ReadKey();
+        }
+    }
+
+    void ToShowTheMostValuableShopper(List<Sale> list)
+    {
+        Clear();
+        Console.WriteLine(tacticalSpace);
+
+        Console.Write("Ingrese la fecha Inicial(YYYY/MM/DD): ");
+        string? date2 = Console.ReadLine();
+        DateTime date2G;
+        bool couldItBeTransformedToDate = DateTime.TryParse(date2, out date2G);
+
+        Console.Write("Ingrese la fecha final(YYYY/MM/DD): ");
+        string? date3 = Console.ReadLine();
+        DateTime date3G;
+        bool couldItBeTransformedToDate2 = DateTime.TryParse(date3, out date3G);
+
+        var shopperInDateRange = list.Where(date => date.SaleDate <= date3G && date.SaleDate >= date2G).ToList();
+
+        if (couldItBeTransformedToDate == false || couldItBeTransformedToDate2 == false || string.IsNullOrWhiteSpace(date2) == true || shopperInDateRange.Count == 0)
+        {
+            Clear();
+            Console.WriteLine("El valor ingresado es erroneo");
+            Console.WriteLine(tacticalSpace);
+            Console.WriteLine("Presione un boton cualquiera para seguir");
+            Console.ReadKey();
+        }
+        else
+        {
+            Console.WriteLine(tacticalSpace);
+            var shoppersSpentCash = shopperInDateRange
+            .GroupBy(shopper => shopper.Buyer)
+            .Select(group => new
+            {
+                Buyer = group.Key,
+                TotalBuys = group.Sum(shopper => shopper.ProductAmount * shopper.ProductValue)
+            }).OrderByDescending(result => result.TotalBuys);
+
+            int count = 1;
+
+            Console.WriteLine($"Este es el ranking de los Compradores entre {date2G.ToString("yyyy/MM/dd")} y {date3G.ToString("yyyy/MM/dd")}:");
+
+            Console.WriteLine(
+@$"__________________________________________________________
+| Rank |         Buyer            |     Cash spent        |
+|_________________________________________________________|"
+            );
+
+            foreach (var item in shoppersSpentCash)
+            {
+                Console.WriteLine(
+    @$"|  {count,-4}|  {item.Buyer,-24}|  {item.TotalBuys,-21}|"
+    );
+                count++;
+            }
+
+            Console.WriteLine(
+            @$"|_________________________________________________________|");
+
+            Console.WriteLine("Presione un boton cualquiera para seguir");
+            Console.ReadKey();
+        }
     }
 
 
-
-
-
-
-
-
-    void ToShowProducts(List<Sale>list)
+    void ToShowProducts(List<Sale> list)
     {
+        Clear();
+        Console.WriteLine("Aqui estan las ventas actuales");
         Console.WriteLine
         (
 @"
-______________________________________________________________________________________________
-|                                                                                             |
-______________________________________________________________________________________________
-"
+______________________________________________________________________________________________________
+|                                                                                                    |
+|____________________________________________________________________________________________________|"
         );
 
         foreach (var item in list)
@@ -311,12 +532,12 @@ ________________________________________________________________________________
 
         Console.WriteLine
         (
-@"
-|                                                                                             |
-______________________________________________________________________________________________
+@"|_____________________________________________________________________________________________________|
 "
         );
 
+        Console.Write("Presine cualquier letra para continuar:");
+        Console.ReadKey();
     }
 }
 
