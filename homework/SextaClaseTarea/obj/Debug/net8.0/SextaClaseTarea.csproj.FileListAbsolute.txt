@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/bin/Debug/net8.0/SextaClaseTarea
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/bin/Debug/net8.0/SextaClaseTarea.deps.json
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/bin/Debug/net8.0/SextaClaseTarea.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/bin/Debug/net8.0/SextaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/bin/Debug/net8.0/SextaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/refint/SextaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/SextaClaseTarea.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/homework/SextaClaseTarea/obj/Debug/net8.0/ref/SextaClaseTarea.dll
