@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Familiarr\\Documents\\curso-c-\\TallerLINQ\\TallerLINQ.csproj": {}
+    "c:\\Users\\Familiarr\\Documents\\curso-c-\\homework\\homework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Familiarr\\Documents\\curso-c-\\TallerLINQ\\TallerLINQ.csproj": {
+    "c:\\Users\\Familiarr\\Documents\\curso-c-\\homework\\homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familiarr\\Documents\\curso-c-\\TallerLINQ\\TallerLINQ.csproj",
-        "projectName": "TallerLINQ",
-        "projectPath": "C:\\Users\\Familiarr\\Documents\\curso-c-\\TallerLINQ\\TallerLINQ.csproj",
+        "projectUniqueName": "c:\\Users\\Familiarr\\Documents\\curso-c-\\homework\\homework.csproj",
+        "projectName": "homework",
+        "projectPath": "c:\\Users\\Familiarr\\Documents\\curso-c-\\homework\\homework.csproj",
         "packagesPath": "C:\\Users\\Familiarr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familiarr\\Documents\\curso-c-\\TallerLINQ\\obj\\",
+        "outputPath": "c:\\Users\\Familiarr\\Documents\\curso-c-\\homework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Familiarr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

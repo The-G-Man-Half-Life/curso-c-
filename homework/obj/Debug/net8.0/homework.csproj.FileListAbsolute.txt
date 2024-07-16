@@ -1,0 +1,5 @@
+C:\Users\Familiarr\Documents\curso-c-\homework\obj\Debug\net8.0\homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Familiarr\Documents\curso-c-\homework\obj\Debug\net8.0\homework.AssemblyInfoInputs.cache
+C:\Users\Familiarr\Documents\curso-c-\homework\obj\Debug\net8.0\homework.AssemblyInfo.cs
+C:\Users\Familiarr\Documents\curso-c-\homework\obj\Debug\net8.0\homework.csproj.CoreCompileInputs.cache
+C:\Users\Familiarr\Documents\curso-c-\homework\obj\Debug\net8.0\homework.sourcelink.json
