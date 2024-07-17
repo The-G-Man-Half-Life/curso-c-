@@ -74,3 +74,45 @@ tacticalSpaceRemastered();
 var producto12 = new Producto12("FUNDA CONTRACAIDAS,PROTECTOR DE CAMARAS Y AGARRE DE ANILLA PARA POCO X6 PRO", 28000);
 Console.WriteLine($"El producto {producto12.Nombre} cuesta un total de: {producto12.Precio}");
 producto12.CambiarNombre("Funda Protectora de poco x6 pro");
+producto12.ObtenerNombre();
+tacticalSpaceRemastered();
+
+//13 actividad
+var cuentaBancaria13 = new CuentaBancaria13("Patric The rizzman",1234.5);
+Console.WriteLine($"La cuenta le corresponde a {cuentaBancaria13.Titular} y el posee {cuentaBancaria13.Saldo}");
+cuentaBancaria13.Depositar(200.1);
+Console.WriteLine($"La cuenta le corresponde a {cuentaBancaria13.Titular} y el posee {cuentaBancaria13.Saldo}");
+tacticalSpaceRemastered();
+
+//14 actividad
+var cuentaBancaria14 = new CuentaBancaria14("Bob the GangMan",1234.5);
+Console.WriteLine($"La cuenta le corresponde a {cuentaBancaria14.Titular} y el posee {cuentaBancaria14.Saldo}");
+cuentaBancaria14.Retirar(1234.5);
+Console.WriteLine($"La cuenta le corresponde a {cuentaBancaria14.Titular} y el posee {cuentaBancaria14.Saldo}");
+tacticalSpaceRemastered();
+
+//15 actividad
+var claseEstudiante15 = new ClaseEstudiante15("Patrick The Rizzman",17,"10a");
+Console.WriteLine($"Estudiante: {claseEstudiante15.Nombre} Edad: {claseEstudiante15.Edad} Grado: {claseEstudiante15.Grado}" );
+tacticalSpaceRemastered();
+
+//16 actividad
+var claseEstudiante16 = new ClaseEstudiante16("Patric The Rizzman",17,"10a");
+claseEstudiante16.GetEdad();
+claseEstudiante16.SetEdad(200);
+claseEstudiante16.GetEdad();
+tacticalSpaceRemastered();
+
+//17 actividad
+var rectangulo17 = new Rectangulo17(23.5,12.56); 
+rectangulo17.CalcularArea();
+tacticalSpaceRemastered();
+
+//18 actividad
+var circulo18 = new Circulo18(2000);
+circulo18.CalcularCircunferencia();
+tacticalSpaceRemastered();
+
+//19 actividad
+var empleado19 = new Empleado19("Roman Montoya Franco","Lider",100000);
+empleado19.MostrarDetalles();

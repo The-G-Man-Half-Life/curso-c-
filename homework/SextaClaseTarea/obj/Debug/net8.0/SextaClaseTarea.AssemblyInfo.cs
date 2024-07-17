@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SextaClaseTarea")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a780cd7da2843a6a68edf0632a7cb20a014fa395")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11440ddce262e9436840987ad753bee6df046cd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SextaClaseTarea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SextaClaseTarea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
