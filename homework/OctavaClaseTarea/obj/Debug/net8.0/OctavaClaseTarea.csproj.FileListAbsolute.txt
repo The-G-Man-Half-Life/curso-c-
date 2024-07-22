@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/bin/Debug/net8.0/OctavaClaseTarea
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/bin/Debug/net8.0/OctavaClaseTarea.deps.json
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/bin/Debug/net8.0/OctavaClaseTarea.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/bin/Debug/net8.0/OctavaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/bin/Debug/net8.0/OctavaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/refint/OctavaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/OctavaClaseTarea.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/homework/OctavaClaseTarea/obj/Debug/net8.0/ref/OctavaClaseTarea.dll
