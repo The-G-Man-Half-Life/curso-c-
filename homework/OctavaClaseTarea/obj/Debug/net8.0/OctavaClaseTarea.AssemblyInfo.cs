@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OctavaClaseTarea")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9cbefab4347c61d8a80c813c102f81cc1f1efae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88379130d84789d80a5e7b317516a2f086704dc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OctavaClaseTarea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OctavaClaseTarea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
