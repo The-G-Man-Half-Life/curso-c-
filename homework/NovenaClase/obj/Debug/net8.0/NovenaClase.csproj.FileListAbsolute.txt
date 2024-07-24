@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/bin/Debug/net8.0/NovenaClase
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/bin/Debug/net8.0/NovenaClase.deps.json
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/bin/Debug/net8.0/NovenaClase.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/bin/Debug/net8.0/NovenaClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/bin/Debug/net8.0/NovenaClase.pdb
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/refint/NovenaClase.dll
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.pdb
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/NovenaClase.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/homework/NovenaClase/obj/Debug/net8.0/ref/NovenaClase.dll
