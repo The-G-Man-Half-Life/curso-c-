@@ -86,8 +86,14 @@ car.ToStartUp();
 motorcycle.ToStartUp();
 
 // exercise 12
+Separator();
+var programmer = new Programmer12();
+var manager = new Manager12();
 
+programmer.ToWork();
+manager.ToWork();
 // exercise 13
+Separator();
 
 // exercise 14
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NovenaClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3208b285111999a0e6a0946e41d677a6aa05732d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4685860a62f6588f67cdf81f37be6f8f8cbad5fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("NovenaClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NovenaClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
