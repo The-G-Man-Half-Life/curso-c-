@@ -1,10 +1,13 @@
-﻿using NovenaClase.Models;
+﻿using NovenaClase.models;
+using NovenaClase.Models;
 
 int counter = 1;
 void Separator()
 {
     Console.WriteLine(@$"
+
 ****************____{counter}_____***********************
+
 ");
 counter++;
 }
@@ -74,8 +77,8 @@ Separator();
 var circle = new Circle10();
 var rectangle = new Rectangle10();
 
-circle.CalculateArea();
-rectangle.CalculateArea();
+// circle.CalculateArea();
+// rectangle.CalculateArea();
 
 // exercise 11
 Separator();
@@ -94,7 +97,41 @@ programmer.ToWork();
 manager.ToWork();
 // exercise 13
 Separator();
+var bus = new Bus13("Ferrari",2015,"water and earth","xl",4,"etanol","large travel bus");
+var motorcycle2 = new Motorcycle13("honda",2024,"earth","diesel","SuperHonda");
+var car2 = new Car13("ant",2020,"earth",6,"diesel","SuperSport");
+
+bus.StartTravel();
+bus.StopTravel();
+bus.ShowDetails();
+
+motorcycle2.StartTravel();
+motorcycle2.StopTravel();
+motorcycle2.ShowDetails();
+
+car2.StartTravel();
+car2.StopTravel();
+car2.ShowDetails();
 
 // exercise 14
+Separator();
+var foodItem = new Food14( "Apple", "Organic Farms Inc.", 50, 1.2, new DateTime(2024, 9, 30), "Fruit", false);
+var clothesItem = new Clothes14( "T-shirt", "Fashion Co.", 20, 15.99, "Medium", "Cotton", "Casual");
+var electronicItem = new Electronic14( "Smart TV", "Tech Innovations", 5, 799.99, 150, "Television");
+
+foodItem.FinalPriceWithTaxes();
+clothesItem.FinalPriceWithTaxes();
+electronicItem.FinalPriceWithTaxes();
 
 // exercise 15
+Separator();
+var nurse = new Nurse15( "Emily Smith", "N002", 50000.00, "Emergency Room");
+var manager2 = new Manager15("John Doe","M001",60000.00,"Sales");
+var doctor = new Doctor15( "Dr. Sarah Johnson", "D001", 120000.00, "Cardiology", "Cardiac Electrophysiology", 10);
+
+nurse.ShowDetails();
+nurse.ShowSalary();
+manager2.ShowDetails();
+manager2.ShowSalary();
+doctor.ShowDetails();
+doctor.ShowSalary();
