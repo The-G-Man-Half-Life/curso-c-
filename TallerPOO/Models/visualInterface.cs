@@ -94,32 +94,45 @@ while (flag = true)
     AppAdministrator.ShowStudentsWithAnAverageScoreOf85();
         break;
     case 2:
+    AppAdministrator.ShowTeachersThatTeachMoreThan1Course();
         break;
     case 3:
+    AppAdministrator.ShowStudentsOlderThan16();
         break;
     case 4:
+    AppAdministrator.ShowStudentsByAscendantSurname();
         break;
     case 5:
+    AppAdministrator.CalculateTeachersSalary();
         break;
     case 6:
+    AppAdministrator.StudentWithTheHighestGrade();
         break;
     case 7:
         break;
     case 8:
+    AppAdministrator.TeachersWith10YearsTenure();
         break;
     case 9:
+    AppAdministrator.uniqueSubjects();
         break;
     case 10:
+    AppAdministrator.CareTakerMaria();
         break;
     case 11:
+    AppAdministrator.TeachersbySalaryDescending();
         break;
     case 12:
+    AppAdministrator.StudentsAverageAge();
         break;
     case 13:
+    AppAdministrator.TeachersThatTeachMath();
         break;
     case 14:
+    AppAdministrator.MoreThan3Grades();
         break;
     case 15:
+    AppAdministrator.AverageTenure();
         break;
     case 16:
         AppAdministrator.AddANewTeacher();

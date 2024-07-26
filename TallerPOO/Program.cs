@@ -1,3 +1,3 @@
 ﻿using TallerPOO.Models;
 
-// visualInterface.OptionMenu();
+visualInterface.OptionMenu();

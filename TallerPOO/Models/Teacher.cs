@@ -18,7 +18,7 @@ public class Teacher: Person
     }
 
 
-    public void CalculateTenure()
+    public int CalculateTenure()
     {
         int year = 0;
         if(DateTime.Now.Month < this.EmploymentDate.Month)
@@ -33,7 +33,7 @@ public class Teacher: Person
         {
             year = (DateTime.Now.Year - this.EmploymentDate.Year)-1;
         }
-        Console.WriteLine($"The teacher has been in the school for {year} years");
+        return year;
     }
     public void ShowSalary()
     {
