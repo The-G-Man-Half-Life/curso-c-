@@ -3,7 +3,7 @@ namespace TallerPOO.Models;
 public class Teacher: Person
 {
     public string Subjects {get; set;}
-    private double Salary {get; set;}
+    public double Salary {get; set;}
     public DateTime EmploymentDate {get; set;}
     public List<string> Courses = new List<string>();
 

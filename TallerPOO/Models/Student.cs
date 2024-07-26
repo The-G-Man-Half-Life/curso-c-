@@ -30,7 +30,7 @@ public class Student: Person
         Console.WriteLine($"The average of grades of the student {this.Name} is {Average}");
     }
 
-    public void CalculateAge()
+    public int CalculateAge()
     {
         int year = 0;
         if(DateTime.Now.Month < this.BirthDate.Month)
@@ -45,7 +45,7 @@ public class Student: Person
         {
             year = (DateTime.Now.Year - this.BirthDate.Year)-1;
         }
-        Console.WriteLine($"The student has {year} years");
+        return year;
     }
 
 }
