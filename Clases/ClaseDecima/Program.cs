@@ -1,9 +1,9 @@
-﻿using ClaseDecima.Models;
+﻿
+using ClaseDecima.Models;
 
-//using father class
-var firstAnimal = new Animal(12,"pedro","rata");
+var person = new PracticeAbstractClassToLower("PEPE", "GUZMAN");
+Console.WriteLine(person.Name + " " + person.Surname);
 
-//using the child class
-var secondAnimal = new Dog(2,"Destroyer of worlds","Canine",true);
+CountThings.CountAmountOfCharactersAndReplaceVocalsWithA(person.Name);
 
-Console.WriteLine(secondAnimal.GetName());
+
