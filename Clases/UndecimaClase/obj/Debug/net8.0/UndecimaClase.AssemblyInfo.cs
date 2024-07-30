@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UndecimaClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57bfa3ab3b24b9b77b26d6d87203d545cf8f02ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9141c7deab8ea9294dbde52348bc88b170b06b28")]
 [assembly: System.Reflection.AssemblyProductAttribute("UndecimaClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UndecimaClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
