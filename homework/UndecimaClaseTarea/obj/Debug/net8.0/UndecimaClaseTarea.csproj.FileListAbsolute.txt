@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/bin/Debug/net8.0/UndecimaClaseTarea
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/bin/Debug/net8.0/UndecimaClaseTarea.deps.json
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/bin/Debug/net8.0/UndecimaClaseTarea.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/bin/Debug/net8.0/UndecimaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/bin/Debug/net8.0/UndecimaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/refint/UndecimaClaseTarea.dll
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.pdb
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/UndecimaClaseTarea.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/homework/UndecimaClaseTarea/obj/Debug/net8.0/ref/UndecimaClaseTarea.dll
