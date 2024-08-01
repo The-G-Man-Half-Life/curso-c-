@@ -1,0 +1,15 @@
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.AssemblyInfoInputs.cache
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.AssemblyInfo.cs
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.csproj.CoreCompileInputs.cache
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.sourcelink.json
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/bin/Debug/net8.0/EmployeesManagementSystemPart3
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/bin/Debug/net8.0/EmployeesManagementSystemPart3.deps.json
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/bin/Debug/net8.0/EmployeesManagementSystemPart3.runtimeconfig.json
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/bin/Debug/net8.0/EmployeesManagementSystemPart3.dll
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/bin/Debug/net8.0/EmployeesManagementSystemPart3.pdb
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.dll
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/refint/EmployeesManagementSystemPart3.dll
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.pdb
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/EmployeesManagementSystemPart3.genruntimeconfig.cache
+/home/riwip5-012/Documents/curso-c-/EmployeesManagementSystemPart3/obj/Debug/net8.0/ref/EmployeesManagementSystemPart3.dll
