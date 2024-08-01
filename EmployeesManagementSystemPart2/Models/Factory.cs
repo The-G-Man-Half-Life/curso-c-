@@ -90,7 +90,7 @@ Console.ReadKey();
     case 3:
         Console.Write("Enter the new Identification number: ");
         string newIN = verificationSystem.NormalizationOfString("Enter the new identification number: ");
-        Employees[employeeUbication].Name = newIN;
+        Employees[employeeUbication].IdentificationNumber = newIN;
         break;
     case 4:
         Console.Write("Enter the new age: ");
