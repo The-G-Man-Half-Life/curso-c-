@@ -150,7 +150,6 @@ public void ShowEmployeesByRank()
         Console.ReadKey();
         
 }
-
 public void AddANewClient()
 {
     Administration.AddANewClient();
