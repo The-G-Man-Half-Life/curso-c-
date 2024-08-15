@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vGX3Reh13QVL+8Hx0fhgQTe7IvMsu3FE5Lb6EAMTrbw=",
+  "Hash": "Pp0N7j7ouLYFyD1BbYQndl1NBdel5tSpBblqiI3Zbtk=",
   "Source": "DuoDecimaClase",
   "BasePath": "_content/DuoDecimaClase",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/obj/Debug/net8.0/scopedcss/projectbundle/DuoDecimaClase.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/wwwroot/css/index.css",
+      "SourceId": "DuoDecimaClase",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/wwwroot/",
+      "BasePath": "_content/DuoDecimaClase",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
     },
     {
       "Identity": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/wwwroot/css/site.css",

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/DuoDecimaClase.bundle.scp.css"
     },
     {
+      "Id": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
       "Id": "/home/riwip5-012/Documents/curso-c-/Clases/DuoDecimaClase/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
