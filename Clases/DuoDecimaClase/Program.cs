@@ -1,9 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddDbContext<AplicationDBContext>(options ->
-options.UseMySql(
-    builder.Configuration.GetConnectionsString("AplicationDBContext"),
-    ServerVersion.Parse("8.0.20-mysql")))
+var builder = WebApplication.CreateBuilder(args); 
 
 builder.Services.AddRazorPages();
 

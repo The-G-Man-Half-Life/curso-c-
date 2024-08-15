@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuoDecimaClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65833f8b2cfb9cb5bb940ef9253cc721542f5db8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7313cc8ddc461613defcd5ca30e0f2fb0e2b31c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuoDecimaClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuoDecimaClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
