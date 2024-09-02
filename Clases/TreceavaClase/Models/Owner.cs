@@ -1,6 +1,9 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace TreceavaClase.Models;
 public class Owner
 {
+    [Key]
     public int Id { get; set; }
     public required string Name { get; set; }
     public required string Apellido { get; set; }
