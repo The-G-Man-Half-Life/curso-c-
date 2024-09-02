@@ -11,6 +11,7 @@ public class Vehicle
     public required int Year {get; set;}
     public required string Color {get; set;}
     public required string VehicleType {get; set;}
+    public required string ChasisNumber {get; set;}
     public required int OwnerId {get; set;}
 
 
