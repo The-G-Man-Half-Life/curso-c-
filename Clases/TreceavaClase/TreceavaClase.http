@@ -1,0 +1,6 @@
+@TreceavaClase_HostAddress = http://localhost:5202
+
+GET {{TreceavaClase_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
