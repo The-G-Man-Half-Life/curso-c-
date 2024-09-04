@@ -15,19 +15,19 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Owner>(Owner =>
-        {
-                    Owner.ToTable("owners");
-        Owner.HasKey(p => p.Id);
-        Owner.Property(p => p.Id).ValueGeneratedOnAdd();
-        Owner.Property(p => p.Name).HasMaxLength(100).IsRequired();
-        Owner.Property(p => p.LastName).HasMaxLength(100).IsRequired();
-        Owner.Property(p => p.ProfilePhoto).HasMaxLength(100).IsRequired();
-        Owner.Property(p => p.Address).HasMaxLength(200).IsRequired();
-        Owner.Property(p => p.Phone).HasMaxLength(25).IsRequired();
-        Owner.Property(p => p.Address).HasMaxLength(255).IsRequired();
-        Owner.Ignore(p => p.HairColor);
-        });
+        // modelBuilder.Entity<Owner>(Owner =>
+        // {
+        //             Owner.ToTable("owners");
+        // Owner.HasKey(p => p.Id);
+        // Owner.Property(p => p.Id).ValueGeneratedOnAdd();
+        // Owner.Property(p => p.Name).HasMaxLength(100).IsRequired();
+        // Owner.Property(p => p.LastName).HasMaxLength(100).IsRequired();
+        // Owner.Property(p => p.ProfilePhoto).HasMaxLength(100).IsRequired();
+        // Owner.Property(p => p.Address).HasMaxLength(200).IsRequired();
+        // Owner.Property(p => p.Phone).HasMaxLength(25).IsRequired();
+        // Owner.Property(p => p.Address).HasMaxLength(255).IsRequired();
+        // Owner.Ignore(p => p.HairColor);
+        // });
 
 
         modelBuilder.Entity<Vehicle>(vehicle =>
