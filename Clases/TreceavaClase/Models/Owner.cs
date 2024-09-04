@@ -1,4 +1,6 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace TreceavaClase.Models;
 public class Owner
@@ -10,7 +12,7 @@ public class Owner
     [MaxLength(125,ErrorMessage = "The name field must be at most {125} characters")]
     public required string Name { get; set; }
     
-    public required string Apellido { get; set; }
+    public required string LastName { get; set; }
     public required string IdentificationNumber { get; set; }
     
     [MaxLength(100,ErrorMessage ="The profile photo must be at most 100 characters")]
@@ -25,4 +27,11 @@ public class Owner
 
     [EmailAddress(ErrorMessage = "This email field is using an invalid email format")]
     public required string Email { get; set; }
+
+    [NotMapped]
+    public required string HairColor {get; set;}
+
+
+    [JsonIgnore]
+    public virtual ICollection<Vehicle>? Vehicles {get; set;}
 }

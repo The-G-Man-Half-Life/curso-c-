@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TreceavaClase.Data;
 
@@ -10,9 +11,11 @@ using TreceavaClase.Data;
 namespace TreceavaClase.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240903120526_ThePropertyProfilePhotoWasAddedToTheModelOwner")]
+    partial class ThePropertyProfilePhotoWasAddedToTheModelOwner
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,8 +34,11 @@ namespace TreceavaClase.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Apellido")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -42,20 +48,15 @@ namespace TreceavaClase.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasMaxLength(125)
+                        .HasColumnType("varchar(125)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasMaxLength(25)
-                        .HasColumnType("varchar(25)");
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("ProfilePhoto")
                         .IsRequired()
@@ -64,7 +65,7 @@ namespace TreceavaClase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("owners", (string)null);
+                    b.ToTable("Owners");
                 });
 
             modelBuilder.Entity("TreceavaClase.Models.Vehicle", b =>
@@ -77,57 +78,46 @@ namespace TreceavaClase.Migrations
 
                     b.Property<string>("Brand")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("ChasisNumber")
                         .IsRequired()
-                        .HasMaxLength(25)
-                        .HasColumnType("varchar(25)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Color")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Model")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("longtext");
 
                     b.Property<int>("OwnerId")
                         .HasColumnType("int");
 
                     b.Property<string>("VehicleType")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("longtext");
 
                     b.Property<int>("Year")
-                        .HasMaxLength(4)
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OwnerId");
 
-                    b.ToTable("vehicles", (string)null);
+                    b.ToTable("Vehicles");
                 });
 
             modelBuilder.Entity("TreceavaClase.Models.Vehicle", b =>
                 {
                     b.HasOne("TreceavaClase.Models.Owner", "Owner")
-                        .WithMany("Vehicles")
+                        .WithMany()
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Owner");
-                });
-
-            modelBuilder.Entity("TreceavaClase.Models.Owner", b =>
-                {
-                    b.Navigation("Vehicles");
                 });
 #pragma warning restore 612, 618
         }

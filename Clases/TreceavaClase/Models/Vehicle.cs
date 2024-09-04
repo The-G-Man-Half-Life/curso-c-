@@ -2,20 +2,20 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TreceavaClase.Models;
+
 public class Vehicle
 {
-    [Key]
     public int Id {get; set;}
-    public required string Brand {get; set;}
-    public required string Model {get; set;}
-    public required int Year {get; set;}
-    public required string Color {get; set;}
-    public required string VehicleType {get; set;}
-    public required string ChasisNumber {get; set;}
-    public required int OwnerId {get; set;}
+    public string Brand {get; set;}
+    public string Model {get; set;}
+    public int Year {get; set;}
+    public string Color {get; set;}
+    public string VehicleType {get; set;}
+    public string ChasisNumber {get; set;}
+    public int OwnerId {get; set;}
 
 
     //Enlaces foraneos
-    [ForeignKey("OwnerId")]
+    // [ForeignKey("OwnerId")]
     public Owner? Owner {get; set;} 
 }
