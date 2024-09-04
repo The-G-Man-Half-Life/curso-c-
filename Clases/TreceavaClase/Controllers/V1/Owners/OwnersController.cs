@@ -1,3 +1,4 @@
+using Bogus.DataSets;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,7 @@ namespace TreceavaClase.Controllers.V1.Owners
             return Ok(ObtainedOwners);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("by-id/{id}")]
         public async Task<IActionResult> GetByID(int id)
         {
             var OwnerBroughtFromDB = await ConnectionDB.Owners.FindAsync(id);
@@ -39,11 +40,18 @@ namespace TreceavaClase.Controllers.V1.Owners
         [HttpGet("by-name/{Name}")]
         public async Task<IActionResult> GetByName(string Name)
         {
-            var OwnerBroughtFromDB = await ConnectionDB.Owners.FindAsync(Name);
+            var OwnerBroughtFromDB = await ConnectionDB.Owners.FirstOrDefaultAsync(p => p.Name.Contains(Name));
             if (OwnerBroughtFromDB == null)
             {
                 return NotFound($"There was not any owner with the Name: {Name}");
             }            // Devuelve el propietario.
+            return Ok(OwnerBroughtFromDB);
+        }
+
+        [HttpGet("by-initial/{initial}")]
+        public async Task<IActionResult> GetOwnerByInitial(string initial)
+        {
+            var OwnerBroughtFromDB = await ConnectionDB.Owners.Where(p => p.Name.StartsWith(initial)).ToListAsync();
             return Ok(OwnerBroughtFromDB);
         }
     }
